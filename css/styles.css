@@ -31,6 +31,12 @@ li > a{
     text-decoration: none;
 }
 
+li > a:hover{
+    background-color: rgb(250, 190, 94);
+    border-radius: 5%;
+    padding: 0.5em;
+}
+
       /********** HEADER BACKGROUND-IMAGE ***********/
 header {
     text-align: center;
@@ -60,6 +66,12 @@ h1{
 
 .information{
     padding: 1em 1em;
+}
+
+.main-information > .col-3{
+    background-color: rgba(255, 136, 0, 0.15);
+    border-radius: 5%;
+    padding: 2em;
 }
 
 .information > h2{
@@ -96,6 +108,7 @@ h1{
 .complement-information img{
     border: 3px groove rgba(255, 136, 0, 0.733);
     border-radius: 5%;
+    height: 200px;
     width: 100%;
 }
 
@@ -116,7 +129,7 @@ h4{
 }
 
 .col-4 > .btn{
-    margin: 0 40%;
+    margin: 0 35%;
     padding: 0.5em 2em;
     text-align: center;
 }
