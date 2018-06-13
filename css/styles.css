@@ -5,28 +5,24 @@ nav {
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
     height: auto;
-    max-width: 100%;
-    position: relative;
-    z-index: 1;
+    text-align: center;
 }
 
-.name{
+div.name{
     float: left;
-    font-size: 100%;
-    margin-left: 2em;
-    margin-top: 0.5em;
-    padding: 0.5em;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: left;
 }
 
 .menu{
     float: right;
-    margin-right: 1em;
-    padding: 1em;
 }
 
-li{
-    padding: 0.5em;
+.menu li{
     display: inline-block;
+    margin-left: 0.5em;
 }
 
 li > a{
@@ -35,3 +31,24 @@ li > a{
 }
 
       /********** HEADER BACKGROUND-IMAGE ***********/
+header {
+    text-align: center;
+    background-image: url("../assets/imagenes/background-holanda.jpg");
+    background-size: cover;
+    color: white;
+    height: auto;
+}
+
+header > div{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.781);
+    font-family: 'Sura', serif;
+    font-size: 300%;
+    padding: 1em;
+}
+
+
+    
