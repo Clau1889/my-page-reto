@@ -47,7 +47,37 @@ h1{
     color: rgba(255, 255, 255, 0.781);
     font-family: 'Sura', serif;
     font-size: 300%;
+    padding: 2em 1em;
+}
+
+.main-information{
+    text-align: justify;
+    padding: 2em 5em;
+}
+
+.information{
     padding: 1em;
+}
+
+.information > h2{
+    font-family: 'Sura', serif;
+    font-size: 200%;
+}
+
+.information > p{
+    font-family: 'Oxygen', sans-serif;
+}
+
+.information > button{
+    background-color:rgba(255, 136, 0, 0.733);
+    border: none;
+    border-radius: 5%;
+    color: #ffffff;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 0.8em;
+    text-align: center;
 }
 
 
