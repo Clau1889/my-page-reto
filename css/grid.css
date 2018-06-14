@@ -64,6 +64,13 @@
 }
 
 @media screen and (max-width: 576px){
+   
+    .main-information > .col-3{
+        background-color: rgba(255, 136, 0, 0.15);
+        border-radius: 5%;
+        padding: 2em;
+        width: 100%;
+    }
     .col-9{
         width: 100%;
     }

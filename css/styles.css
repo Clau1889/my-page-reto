@@ -124,7 +124,7 @@ h4{
 
 .text{
     font-family: 'Oxygen', sans-serif;
-    height: 23em;
+    max-height: 23em;
     padding: 0.8em;
 }
 
